@@ -16,8 +16,8 @@ public:
     void recibirDaño(int daño);
     int getLife() ;
     bool isAlive();
-    void setATK();
-    void setLife();
+    void setATK(int ATK);
+    void setLife(int HP);
     void volverCANO();
 };
 
