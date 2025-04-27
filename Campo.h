@@ -21,6 +21,7 @@ public:
     void batalla(); // Heroe y monstruo mas cercano batallan
     int getNumEnemigos(); // Retorna la cantidad de monstruos que quedan vivos
     Entidad getEsbirroAt(int pos);// Retorna el esbirro en la posicion pos
+    int getEsbirrosDMG();
 };
 
 #endif 
